@@ -91,7 +91,7 @@ ul {
 
 .first-section {
     text-align: center;
-    padding: 15px 200px;
+    padding: 15px 230px;
 }
 
 .first-section-header{
@@ -102,7 +102,7 @@ ul {
 
 .box-grid {
     display: flex;
-    gap: 50px;
+    gap: 40px;
 }
 
 .box-container {
@@ -117,7 +117,7 @@ ul {
     height: 120px;
     border: 2px solid rgb(0,0,255);
     border-radius: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 .box-text {
@@ -125,8 +125,26 @@ ul {
     font-weight: lighter;
 }
 .second-section {
-    
+    background-color: rgba(229,231,235, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 90px 230px;
 }
+
+.section-quote {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.section-quote-author {
+    font-size: 12px;
+    font-weight: bold;
+}
+
 .third-section {
 
 }
