@@ -16,14 +16,9 @@ ul {
     padding: 0;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(255,255,255);
-}
-
 /* Header styling */
 .header {
-    background-color: rgba(31,41,55,255);
+    background-color: rgba(31,41,55,1);
     color: rgb(255,255,255);
 }
 
@@ -41,4 +36,43 @@ a {
     display: flex;
     justify-content: space-around;
     gap: 16px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin: 50px 100px;
+}
+
+.hero-title {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.hero-subtitle {
+    font-size: 10px;
+    font-weight: lighter;
+    margin-bottom: 8px;
+}
+
+.hero-button {
+    background-color: rgba(59,130,246,1);
+    color: rgba(255, 255, 255,1);
+    padding: 5px 24px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.hero-image img {
+    width: 400px;
+    height: auto;
 }
