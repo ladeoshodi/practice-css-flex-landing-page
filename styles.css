@@ -6,6 +6,8 @@
 
 body {
     font-family: roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
@@ -16,4 +18,27 @@ ul {
 
 a {
     text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+/* Header styling */
+.header {
+    background-color: rgba(31,41,55,255);
+    color: rgb(255,255,255);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 100px 50px 100px;
+}
+
+.header-logo {
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
 }
