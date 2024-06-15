@@ -146,7 +146,39 @@ ul {
 }
 
 .third-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 90px;
+}
 
+.cta-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 30px 70px;
+    background-color: rgba(59,130,246,1);
+    border-radius: 5px;
+    color: rgba(255,255,255,1);
+    width: 100%
+}
+
+.cta-title {
+    font-weight: bold;
+}
+
+.cta-subtitle {
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.cta-button {
+    color: rgba(255,255,255, 1);
+    background-color: rgba(59,130,246,1);
+    border: 1px solid white;
+    padding: 5px 24px;
+    border-radius: 5px;
 }
 
 .footer {
