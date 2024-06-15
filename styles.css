@@ -181,6 +181,15 @@ ul {
     border-radius: 5px;
 }
 
+/* Footer styling */
 .footer {
     flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(31,41,55,1);
+    color: rgba(255,255,255,1);
+    padding: 20px 0;
+    font-size: 12px;
+    font-weight: 300;
 }
