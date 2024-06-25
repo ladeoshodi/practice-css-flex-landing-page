@@ -1,4 +1,9 @@
 # Practice CSS layout with flex
 
+### Design
+![png](images/design-mockup.png)
 
-![png](./images/TOP%20landing%20page%2001.png)
+---
+
+### CSS Layout (code)
+ ![png](images/actual.png)
